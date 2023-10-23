@@ -1,0 +1,43 @@
+# Gitfile
+
+# Author       : k4itrun
+# Github       : https://github.com/k4itrun
+# Github       : https://github.com/k4itrun
+# Contact      : https://m.me/k4itrun
+# Discord      : https://6889.fun/k4itrun
+# Email        : k4itrun@6889.fun
+# Date         : 11-10-2023
+# Main Language: Python
+
+# Automatically generated files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment or virtual development environment
+venv/
+env/
+
+# IDE or text editor configuration files
+.vscode/
+.idea/
+.vscode/
+
+# Cache files or project-specific configuration
+.cache/
+.pytest_cache/
+
+# Application log and data files (e.g., for Django projects)
+db.sqlite3
+media/
+
+# Files generated during project build
+build/
+dist/
+private/
+*.egg-info/
+/*.txt
+/*.zip
+
+
