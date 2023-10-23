@@ -127,7 +127,7 @@ sites=[
     "Gmail Old", 
     "Gmail New",
     "Gmail Poll",#
-    "Cryptocurrency"
+    "Cryptocurrency",
     "SnapChat2",
     "Verizon",
     "Wi-Fi",
