@@ -105,7 +105,7 @@ To run this application smoothly, ensure that you have the following prerequisit
 | Linux     | Excellent |
 | Android   | Excellent |
 
-#### Installing packages
+### Installing packages
 
 - For Termux
 ```bash
