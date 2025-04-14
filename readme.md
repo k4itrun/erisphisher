@@ -1,103 +1,74 @@
-<!-- ErisPhisher -->
-
-<!-- h1 align="center">ERIS</h1 -->
+<div align="center">
+  <picture>
+    <img 
+      src=".github/IMG/erisphisher.png" 
+      height="150"
+      loading="lazy"
+      style="margin-bottom: 15px;"
+      alt="erisphisher logo"
+    />
+  </picture>
+  
+<h1>
+  <a href="https://github.com/k4itrun/erisphisher" target="_blank" rel="noopener noreferrer">
+    Eris.
+  </a>
+</h1>
+</div>
 
 <p align="center">
-  <img src=".github/files/eris.jpg">
+  A user-friendly tool for cloning over 60 customizable templates for phishing simulations.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/k4itrun/ErisPhisher?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/k4itrun/ErisPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/k4itrun/ErisPhisher?color=teal&style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/k4itrun/ErisPhisher?color=white&style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/k4itrun/ErisPhisher?color=yellow&style=for-the-badge">
-</p>
+<div align="center">
+<a aria-label="GitHub Maintained" href="https://github.com/k4itrun/wish/blob/master/license.md">
+    <img src="https://img.shields.io/badge/No-%5dd348f0?logo=github&style=flat-square&label=Maintained%3F">
+  </a>
+  <a aria-label="License" href="https://github.com/k4itrun/erisphisher/blob/master/license.md">
+    <img src="https://img.shields.io/github/license/k4itrun/erisphisher?color=%5dd348f0&logo=github&style=flat-square&label=License">
+  </a>
+  <a aria-label="Version" href="https://github.com/k4itrun/erisphisher/releases">
+    <img src="https://img.shields.io/github/v/release/k4itrun/erisphisher?color=%5dd348f0&logo=github&style=flat-square&label=Version">
+  </a>
+  <a aria-label="Discord" href="https://discord.gg/A6Vu7gYE">
+    <img src="https://img.shields.io/discord/903684797560397915?color=%5dd348f0&logo=discord&style=flat-square&logoColor=fff&label=Discord">
+  </a>
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Maintained%3F-Yes-lightblue?style=flat-square">
-  <img src="https://img.shields.io/badge/Author-k4itrun-black?style=flat-square">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fk4itrun%2FErisPhisher&title=Visitors&edge_flat=false"/></a>
-</p>
+<div align="center">
+  <a aria-label="Stars" href="https://github.com/k4itrun/erisphisher">
+    <img src="https://img.shields.io/github/stars/k4itrun/erisphisher?color=%5dd348f0&logo=github&style=flat-square&label=Stars">
+  </a>
+  <a aria-label="Forks" href="https://github.com/k4itrun/erisphisher/releases">
+    <img src="https://img.shields.io/github/forks/k4itrun/erisphisher?color=%5dd348f0&logo=github&style=flat-square&label=Forks">
+  </a>
+  <a aria-label="Issues" href="https://github.com/k4itrun/erisphisher/issues">
+    <img src="https://img.shields.io/github/issues/k4itrun/erisphisher?color=%5dd348f0&logo=github&style=flat-square&label=Issues">
+  </a>
+</div>
 
-### Note
+## Table of Contents
 
-I would like to ask for your collaboration in this project. Adding a star to this repository would be a great help. Simply click the 'Star' button at the top right of the repository page.
+1. [Overview](#overview)
+   - [Notable Features](#notable-features)
+2. [Getting Started](#getting-started)
+   - [Requirements](#requirements)
+   - [Platform Support](#platform-support)
+   - [Installing packages](#installing-packages)
+   - [Installation](#installation)
+3. [Usage](#usage)
+4. [Acknowledgments](#acknowledgments)
+5. [Contributing](#contributing)
+6. [Contact](#contact)
+7. [License](#license)
+8. [Disclaimer](#disclaimer)
 
-Your support means a lot to me and the project in general. Thank you in advance for your help and collaboration! ⭐
 
-### Installation
+## Overview
 
-#### Use Google Shell for testing your (TESTS)
+Eris is a user-friendly tool designed to streamline phishing simulation campaigns by providing access to over 60 customizable templates. Whether you're conducting red team assessments, training employees on cybersecurity awareness, or testing your organization’s email defenses, Eris empowers you with the tools to create realistic, high-impact scenarios in minutes.
 
-<p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/k4itrun/ErisPhisher.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
-</p>
-
-#### Installing Dependencies (git, python, php ssh)
-
-To ensure **ErisPhisher** runs smoothly, you'll need to install the following dependencies based on your operating system:
-
- - For Termux
-    - ```bash
-      $ pkg install git python3 python-pip php openssh -y
-      ```
- - For Debian (Debian, Ubuntu, Kali, Parrot)
-    - ```bash
-      $ sudo apt install git python3 python3-pip php openssh-client -y
-      ```
- - For Redhat(Fedora)
-    - ```bash
-      $ sudo dnf install git python3 php openssh -y
-      ```
- - For Arch (Manjaro)
-    - ```bash
-      $ sudo pacman -S git python3 python-pip php openssh --noconfirm
-      ```
-
-- Just, Clone this repository -
-  ```bash
-  $ git clone https://github.com/k4itrun/ErisPhisher.git
-  ```
-
-- Now go to cloned directory and run `eris.sh` -
-  ```bash
-  $ cd ErisPhisher
-  $ bash eris.sh
-  ```
-
-- Or, directly run
-    ```bash
-   $ git clone https://github.com/k4itrun/ErisPhisher && cd ErisPhisher && bash eris.sh
-    ```
-
-### Platform Support
-
-| OS        | Support Level        |
-|-----------|----------------------|
-| Windows   | Unsupported (Consider using Docker, VirtualBox, or VMware) |
-| iPhone    | Alpha (Docker recommended) |
-| MacOS     | Alpha (Docker recommended) |
-| Linux     | Excellent |
-| Android   | Excellent |
-
-### Installation (Termux)
-
-You can easily install ErisPhisher in Termux by using tur-repo
-```
-$ pkg install tur-repo
-$ pkg install ErisPhisher
-$ ErisPhisher
-```
-
-### Note
-
-Termux strongly discourages any hacking-related discussions. Therefore, please refrain from discussing any topics related to **ErisPhisher** in any of the Termux discussion groups. For more information, refer to the: [wiki](https://wiki.termux.com/wiki/Hacking)
-
-## Key Features
+### Notable Features
 
 - **Multi-Platform Support:** Compatible with most Linux distributions.
 - **Over 60 Website Templates:** Choose from a wide variety of templates for your projects.
@@ -109,36 +80,123 @@ Termux strongly discourages any hacking-related discussions. Therefore, please r
 - **Portability:** Run from any directory; no installation required.
 - **Retrieve IP Addresses and More:** Access detailed information, including login credentials.
 
-## Requirements
+## Getting Started
 
-- **Python-3**
-- **PHP**
-- **Curl**
-- **Unzip**
-- **Wget**
-- **100MB Storage**
+### Requirements
 
-If any of the required packages are missing, they will be automatically installed on the first run.
+To run this application smoothly, ensure that you have the following prerequisites in place:
+- Python3
+- php
+- curl
+- wget
+- unzip
+- 100MB Storage
 
-## Tested Environments
+> [!NOTE]
+> During the initial run, the system will take care of the complete installation of all necessary dependencies without any manual intervention required on your part
 
-- **Termux**
-- **Kali Linux**
+### Platform Support
 
-## Important
+| OS        | Support Level        |
+|-----------|----------------------|
+| Windows   | Unsupported (Consider using Docker, VirtualBox, or VMware) |
+| iPhone    | Alpha (Docker recommended) |
+| MacOS     | Alpha (Docker recommended) |
+| Linux     | Excellent |
+| Android   | Excellent |
 
-This project is inspired by [**zphisher**](https://github.com/htr-tech/zphisher/blob/master/zphisher.sh#L204), The goal is to improve and simplify phishing techniques, making them more effective and easier to use.
+#### Installing packages
 
-## Credits
+- For Termux
+```bash
+pkg install git python3 python-pip php openssh -y
+```
 
-- [**k4itrun**](https://github.com/k4itrun/ErisPhisher)
-   - Initializes all the code from the first version of [**ErisPhisher/ing**](https://github.com/k4itrun/ErisPhisher).
-- [**htr-tech**](https://github.com/htr-tech/zphisher/blob/master/zphisher.sh#L204)
-   - Some templates and base codes were taken from [**zphisher**](https://github.com/htr-tech/zphisher/blob/master/zphisher.sh#L204)
+- For Debian (Debian, Ubuntu, Kali, Parrot)
+```bash
+sudo apt install git python3 python3-pip php openssh-client -y
+```
+
+- For Redhat (Fedora)
+```bash
+sudo dnf install git python3 php openssh -y
+```
+
+- For Arch (Manjaro)
+```bash
+sudo pacman -S git python3 python-pip php openssh --noconfirm
+```
+
+### Installation
+
+#### Use Google Shell to test this online tool
+
+<p align="left">
+  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/k4itrun/erisphisher.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
+</p>
+
+To ensure **erisphisher** runs smoothly, please do the following:
+
+```bash
+git clone https://github.com/k4itrun/erisphisher.git
+```
+```bash
+cd erisphisher
+bash eris.sh
+```
+
+- For Termux
+```bash
+pkg install tur-repo
+pkg install erisphisher
+erisphisher
+```
+
+> [!NOTE]
+> Termux strongly discourages any hacking-related discussions. Therefore, please refrain from discussing any topics related to **erisphisher** in any of the Termux discussion groups. For more information, refer to the: [wiki](https://wiki.termux.com/wiki/hacking)
+
+- Or, directly run
+```bash
+git clone https://github.com/k4itrun/erisphisher && cd erisphisher && bash eris.sh
+```
+
+## Usage
+
+## Acknowledgments
+
+This project is inspired by several phishing tools. Special thanks to:
+
+- [htr-tech](https://github.com/htr-tech/zphisher/blob/master/zphisher.sh#L204): Some templates and base codes were taken from [zphisher](https://github.com/htr-tech/zphisher/blob/master/zphisher.sh#L204)
+
+## Contributing
+
+We greatly appreciate any contributions to this project! Whether you want to open new issues, submit pull requests, or share suggestions for improvements, your input is invaluable. We encourage you to refer to our [Contributing Guidelines](CONTRIBUTING.md) to facilitate a seamless collaboration process.
+
+You can also support the development of this software through a donation, helping me bring new optimal and improved projects to life.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A11481X5)
+
+Thank you for your interest and support! ✌️
+
+## License
+
+This project uses the MIT license. You can find the full license details in the [LICENSE](license.md) file.
+
+## Contact
+
+For any inquiries or support, you can reach out via [contact@w1sh.xyz](mailto:contact@w1sh.xyz) or join our [Discord Server](https://discord.gg/A6Vu7gYE).
 
 ## Disclaimer
 
-This tool has been developed for educational purposes and serves as a demonstration of phishing techniques. If anyone wishes to attempt unauthorized access to someone's social media accounts, they do so at their own risk. Users bear full responsibility and may be held accountable for any damages or legal violations resulting from the use of this tool. The author disclaims any responsibility for any misuse of Eris.
+### Important Notice: Educational Use Only.
 
+This tool has been developed for educational purposes and serves as a demonstration of phishing techniques. If anyone wishes to attempt unauthorized access to someone's social media accounts, they do so at their own risk. Users bear full responsibility and may be held accountable for any damages or legal violations resulting from the use of this tool. The author disclaims any responsibility for any misuse of **erisphisher**.
 
-<!-- // -->
+### User Accountability:
+By utilizing this tool, you take full responsibility for your actions. The creator disclaims any liability for misuse. It is your responsibility to ensure that your use of this software complies with all applicable laws and regulations.
+
+### No Assistance:
+The creator will not provide assistance or support for any misuse of this tool. Any inquiries related to harmful or illegal activities will be ignored.
+
+### Terms Acceptance:
+By using this tool, you agree to abide by this disclaimer. If you do not agree with these terms, please do not use the software.
