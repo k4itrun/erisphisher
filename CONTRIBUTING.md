@@ -1,4 +1,4 @@
-# Contributing to [hackercam](https://github.com/k4itrun/hackercam)
+# Contributing to [erisphisher](https://github.com/k4itrun/erisphisher)
 
 Thank you for your interest in contributing to this project! We welcome all contributions — whether it's reporting bugs, suggesting new features, or submitting pull requests. Please read the following guidelines to ensure a smooth and effective contribution process.
 
