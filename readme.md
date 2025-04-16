@@ -142,13 +142,19 @@ git clone https://github.com/k4itrun/erisphisher.git
 ```
 ```bash
 cd erisphisher
+```
+```bash
 bash eris.sh
 ```
 
 - For Termux
 ```bash
 pkg install tur-repo
+```
+```bash
 pkg install erisphisher
+```
+```bash
 erisphisher
 ```
 
