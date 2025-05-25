@@ -8,7 +8,7 @@
 
 # If you don't know what you're doing, get out of here right now and use this with the instructions.
 
-VERSION="1.0"
+VERSION="1.0.0"
 AUTHOR="\x6b\x34\x69\x74\x72\x75\x6e"
 ERIS_PATH="src/launch.py"
 CONFIG_FILE="assets/counter.txt"
