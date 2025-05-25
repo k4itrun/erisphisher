@@ -176,8 +176,8 @@ This project is inspired by several phishing tools. Special thanks to:
 If you encounter any bugs or problems while using the tool, please open a [new Issue here](https://github.com/k4itrun/erisphisher/issues).
 To help us assist you faster, include as much detail as possible, such as:
 
-- What you were trying to do
-- Any error messages or console logs
+- What you were trying to do.
+- Any error messages or console logs.
 - Your environment details (OS, versions, etc.)
 
 The more info you provide, the quicker we can identify and fix the problem.
@@ -187,7 +187,7 @@ The more info you provide, the quicker we can identify and fix the problem.
 Thanks for wanting to contribute! To submit improvements or fixes, please follow these steps:
 
 1. Clone [this repository](https://github.com/k4itrun/erisphisher.git) using `git clone https://github.com/k4itrun/erisphisher.git`.
-2. Create a new branch from `main` with a clear, descriptive name, for example: `git checkout -b feature/your-feature-name`
+2. Create a new branch from `main` with a clear, descriptive name, for example: `git checkout -b feature/your-feature-name`.
 3. Make your changes and commit them with clear, meaningful messages.
 4. Open a [new Pull Request here](https://github.com/k4itrun/erisphisher/pulls), explaining what you added or fixed and why.
 
