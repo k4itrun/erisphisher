@@ -45,7 +45,7 @@ nc="\033[00m"
 # The above code is defining variables for different types of messages. It is using color codes to
 # format the messages. The variables `success`, `error`, `info`, `info2`, and `ask` are used to
 # display different types of messages with specific formatting.
-version="1.0"
+version="1.0.0"
 
 success = f'{yellow}[{bwhite}√{yellow}] {green}'
 error = f'{blue}[{bwhite}!{blue}] {red}'
@@ -60,7 +60,7 @@ logo = f'''
 {lgreen} |  _| | '__| / __| |_) | '_ \| / __| '_ \ / _ \ '__| | '_ \ / _\ |
 {green} | |___| |  | \__ \  __/| | | | \__ \ | | |  __/ |  | | | | | (_| |
 {lgreen} |_____|_|  |_|___/_|   |_| |_|_|___/_| |_|\___|_|  |_|_| |_|\__, |
-{green}                             {red}[v1.0]                           {green}|___/ 
+{green}                             {red}[v${version}]                           {green}|___/ 
 {lgreen}                          {red}[By k4itrun]
 '''
 
@@ -145,26 +145,6 @@ pkgs=[
 ]
 
 """
-  _____      _     ____  _     _     _               _             
- | ____|_ __(_)___|  _ \| |__ (_)___| |__   ___ _ __(_)_ __   __ _ 
- |  _| | '__| / __| |_) | '_ \| / __| '_ \ / _ \ '__| | '_ \ / _\` |
- | |___| |  | \__ \  __/| | | | \__ \ | | |  __/ |  | | | | | (_| |
- |_____|_|  |_|___/_|   |_| |_|_|___/_| |_|\___|_|  |_|_| |_|\__, |
-                [v1.0]    [By k4itrun]                       |___/ 
-
-  _____           _         _   ___
- |_   _|__   ___ | | __   _/ | / _ \| 
-   | |/ _ \ / _ \| | \ \ / / || | | |
-   | | (_) | (_) | |  \ V /| || |_| |
-   |_|\___/ \___/|_|   \_/ |_(_)___/
-
-  _             _    _  _   _ _
- | |__  _   _  | | _| || | (_) |_ _ __ _   _ _ __
- | '_ \| | | | | |/ / || |_| | __| '__| | | | '_ \|
- | |_) | |_| | |   <|__   _| | |_| |  | |_| | | | |
- |_.__/ \__, | |_|\_\  |_| |_|\__|_|   \__,_|_| |_|
-        |___/
-
                                     MIT License
                             Copyright (c) 2022 k4itrun
 
@@ -185,7 +165,6 @@ pkgs=[
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-
 """
 
 k4itrunAndErisPhisherk4itrunAndErisPhisherk4itrunAndErisPhisherk4itrunAndErisPhisherk4itrunAndErisPhisher = ""
