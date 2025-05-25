@@ -1,14 +1,3 @@
-# Gitfile
-
-# Author       : k4itrun
-# Github       : https://github.com/k4itrun
-# Github       : https://github.com/k4itrun
-# Contact      : https://m.me/k4itrun
-# Discord      : https://6889.fun/k4itrun
-# Email        : k4itrun@6889.fun
-# Date         : 11-10-2023
-# Main Language: Python
-
 # Automatically generated files and directories
 __pycache__/
 *.pyc
@@ -39,5 +28,3 @@ private/
 *.egg-info/
 /*.txt
 /*.zip
-
-

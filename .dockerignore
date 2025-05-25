@@ -1,0 +1,58 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+cython_debug/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm / VSCode / other IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Git & system files
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
+
+# Docker-related
+Dockerfile
+docker-compose.yml
+
+# Secrets / configs (if applicable)
+*.env
+*.secret

